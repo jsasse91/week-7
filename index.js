@@ -41,7 +41,7 @@ for ( let num of numbers) {
 
 //creating a new variable called averageAge and setting it equal to the sum from the for loop and dividing by the length 
 //of the array to find the average, sum divided by the number of items in the array
-averageAge = sum / numbers.length;
+let averageAge = sum / numbers.length;
 
 console.log(averageAge); // expected result 26.77777777777778
 
@@ -77,15 +77,17 @@ for ( let length of lengths) {
   sumLength += length; //this adds the current length in the loop to the sum, everytime it loops it adds up
 }
 
+
+//creating a new variable called averageLength and setting it equal to the sum from the for loop and dividing by the length 
+//of the array to find the average, sum divided by the number of items in the array
+let averageLength = sumLength / lengths.length;
+
 let string = '';
 for (let name of names) {
   string += name + ' ';
 }
 
 console.log(string);
-//creating a new variable called averageLength and setting it equal to the sum from the for loop and dividing by the length 
-//of the array to find the average, sum divided by the number of items in the array
-let averageLength = sumLength / lengths.length;
 
 console.log(averageLength); //expected result 3.8333333333333335
 console.log('-----------------------');//create some separation
